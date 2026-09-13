@@ -11,7 +11,7 @@ echo ""
 
 printf "SCAN THE WHOLE DIRECTORY --------- (1)
 -
-SCAN DIRECTORY FOR LARGE FILES --- (2)
+SCAN DIRECTORY FOR LARGE FILES --- (2) 
 -
 SCAN DIRECTORY FOR DUPLICATES ---- (3)
 -
@@ -36,11 +36,8 @@ case $command in
     ;;
 
     2)
-      du -h *
-      read -p "WHatcha tryna do-- " command
-      if [[ "$command" == "q" ]]; then
-         exit
-      fi
+        clear
+        source largeFiles.sh
 
     ;;
     0)
