@@ -1,4 +1,6 @@
-<h1>  ------------------------------ DIRECTORY SCAN ------------------------------ <h4 style="letter-spacing: 3px;color:red;">Napravljeno je za linux distribuciju i za one koji koriste bash kao izabrani shell</h4></h1>
+# DIRECTORY SCAN  
+ 
+ <h4 style="letter-spacing: 3px;color:red;">Napravljeno je za linux distribuciju i za one koji koriste bash kao izabrani shell</h4>
 
 <hr>
 <h3 style="letter-spacing: 3px;">Prvo posto tree komanda nije preinstalirana morate je instalirati uz pomoc:</h3>
