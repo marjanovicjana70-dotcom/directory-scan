@@ -13,7 +13,7 @@ sudo apt install tree
 
 <hr>
 
-<h3 style="letter-spacing: 3px;">Sledece, da bi ova skripta radila morate je prebaciti u /local/bin. Za to vec postoji skripta pa cete samo uneti u komandnu liniju:</h3>
+<h3 style="letter-spacing: 3px;">Sledece, da bi ova skripta mogla da radi sa bilo koje lokacije morate je prebaciti u /local/bin. Za to vec postoji skripta pa cete samo uneti u komandnu liniju:</h3>
 <br>
 
 ```
@@ -26,4 +26,4 @@ bash move.sh
 ```
 bash scan.sh
 ```
-<h3 style="letter-spacing: 3px;">Directory scan, mali interaktivni UI, mozete koristi za prikaz foldera brisanja pravljenje novih foldera/fajlova mozete izlaziti iz foldera ulaziti u foldere, mozete naci stare fajlove, duplikate, velike fajlove. Isto tako u kodu mozete samo promeniti default postavljene vrednost prema vasem kriterijumu (sto se tice filtriranje fajlova po X velicini ili po top Y najvecih fajlova)..</h3>
+<h3 style="letter-spacing: 3px;">Directory scan, mali interaktivni UI, mozete koristiti za prikaz foldera brisanja pravljenje novih foldera/fajlova mozete izlaziti iz foldera ulaziti u foldere, mozete naci stare fajlove, duplikate, velike fajlove. Isto tako u kodu mozete samo promeniti default postavljene vrednost prema vasem kriterijumu (sto se tice filtriranje fajlova po X velicini, po top Y najvecih fajlova itd...)</h3>
